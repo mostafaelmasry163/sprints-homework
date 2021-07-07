@@ -1,3 +1,7 @@
 this is a code in an app
 adding feature 1
 adding feature 3
+adding feature 2
+testing feature 2
+End of development of feat 2
+ready to be live
