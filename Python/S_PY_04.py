@@ -9,3 +9,18 @@
 # Returns
 
 # [1, 2, 3].
+
+
+arr=[1,2,2,3,2]
+newarr=[]
+
+def reducer():
+    for ele in arr:
+        if ele in newarr:
+           continue 
+        else:
+           newarr.append()
+    return newarr 
+
+reducer()
+print(newarr)
