@@ -16,8 +16,8 @@
 
 # (a-front + b-front) + (a-back + b-back)
 
-a='abcd'
-b='xyz'
+a=input("enter first string: ")
+b=input("enter second string: ")
 
 
 
@@ -33,4 +33,4 @@ def strslice(str):
 asliced = strslice(a)
 bsliced = strslice(b)
 
-print(asliced[0]+bsliced[0], asliced[1]+bsliced[1])
+print("the new string is "+asliced[0]+bsliced[0]+asliced[1]+bsliced[1])
