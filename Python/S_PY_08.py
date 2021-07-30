@@ -1,1 +1,15 @@
 #  Write a function which has an input of a string from user then it will return the same string reversed
+
+strin = input("enter a word : ")
+
+def reve_str (str) :
+    revestrin =""
+    leng = len(str)
+    while leng > 0 :
+        revestrin += str[leng-1]
+        leng -=1
+
+
+    return revestrin
+
+print("the string reversed is "+reve_str(strin))
