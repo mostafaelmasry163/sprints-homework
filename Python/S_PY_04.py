@@ -19,7 +19,7 @@ def reducer():
         if ele in newarr:
            continue 
         else:
-           newarr.append()
+           newarr.append(ele)
     return newarr 
 
 reducer()
