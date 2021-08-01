@@ -11,16 +11,17 @@
 # [1, 2, 3].
 
 
-arr=[1,2,2,3,2]
-newarr=[]
+arr=[1,2,2,3,2,7,6,5,5,4,3,7]
 
-def reducer():
+
+def reducer(arr):
+    newarr = []
     for ele in arr:
         if ele in newarr:
            continue 
         else:
            newarr.append(ele)
-    return newarr 
+    print(newarr)
 
-reducer()
-print(newarr)
+reducer(arr)
+

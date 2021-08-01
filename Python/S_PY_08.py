@@ -1,6 +1,8 @@
 #  Write a function which has an input of a string from user then it will return the same string reversed
+########################
+######### solution 1
 
-strin = input("enter a word : ")
+# strin = input("enter a word : ")
 
 # def reve_str (str) :
 #     revestrin =""
@@ -14,9 +16,10 @@ strin = input("enter a word : ")
 
 # print("the string reversed is "+reve_str(strin))
 
-
+#################################
 ### Another solution
 
+strin = input("enter a word : ")
 def reverse_string(word) :
     if word == "" : return "" 
     last = word[-1]

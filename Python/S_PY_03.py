@@ -19,4 +19,4 @@ while i <= len(string)-1 :
         else :
             i +=1
 
-print('output : ',output)
+print('output : ',output) if output != [] else print("character is not in the string")
